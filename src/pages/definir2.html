@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles.css" />
+  </head>
+  <body class="font-sans">
+    <div class="relative">
+      <header class="px-4 py-5 text-white bg-cyan-500 md:px-auto">
+        <nav class="container mx-auto">
+          <ul>
+            <li>
+              <a class="text-lg font-semibold" href="#"
+                >Jose Gregorio Camaran</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="mx-auto mb-[64px]">
+        <main class="flex flex-col justify-center px-4 py-10 gap-9 md:px-auto">
+          <h1 class="max-w-2xl mx-auto text-2xl font-semibold text-center">
+            Definición de tabla
+          </h1>
+          <img
+            src="/src/public/img/tabla.png"
+            class="object-cover w-full max-w-4xl mx-auto rounded-xl"
+          />
+          <div
+            class="flex flex-col justify-center max-w-3xl mx-auto md:leading-loose gap-9"
+          >
+            <p>
+              Una tabla en una base de datos relacional es una estructura
+              organizada de manera tabular que almacena datos. Compuesta por
+              columnas (también llamadas campos) y filas (registros), cada
+              columna representa un atributo específico de la entidad que la
+              tabla está diseñada para representar. Por ejemplo, en una tabla de
+              empleados, las columnas pueden incluir información como el nombre,
+              el salario y la fecha de contratación. Las tablas se utilizan para
+              representar entidades y sus relaciones en el modelo relacional,
+              proporcionando una manera eficiente y estructurada de organizar
+              grandes cantidades de datos.<br /><br />
+              Además, las tablas están diseñadas siguiendo principios de
+              normalización para reducir la redundancia y mejorar la integridad
+              de los datos. La clave primaria, que es un conjunto de uno o más
+              campos que identifican de manera única cada registro en la tabla,
+              es fundamental para garantizar la unicidad y la integridad de los
+              datos almacenados. Las relaciones entre diferentes tablas se
+              establecen mediante claves foráneas, creando una estructura
+              coherente y conectada que refleja las interrelaciones en el mundo
+              real.
+            </p>
+            <img
+              src="/src/public/img/registro.jpg"
+              class="object-cover w-full rounded-xl"
+            />
+            <h2 class="text-lg font-semibold">Definición de registro</h2>
+            <p>
+              Un registro es una fila individual en una tabla que representa una
+              instancia específica de la entidad que la tabla está modelando.
+              Cada registro contiene información detallada sobre la entidad, con
+              los valores específicos asignados a cada atributo representado por
+              las columnas de la tabla. Por ejemplo, en una tabla de clientes,
+              cada registro podría corresponder a un cliente único y contener
+              información como nombre, dirección y número de teléfono
+              específicos para ese cliente.<br /><br />
+              Los registros son la unidad básica de almacenamiento de datos en
+              una tabla y son fundamentales para la representación y la
+              manipulación de información en una base de datos. Cada registro
+              debe ser único dentro de una tabla, y la identificación única de
+              cada registro se logra a través de la clave primaria. La creación
+              y el mantenimiento precisos de registros son esenciales para
+              garantizar la consistencia y la integridad de los datos, lo que
+              contribuye a un diseño robusto y eficiente del sistema de bases de
+              datos.
+            </p>
+            <img
+              src="/src/public/img/campos.png"
+              class="object-cover w-full rounded-xl"
+            />
+            <h2 class="text-lg font-semibold">Definición de campo</h2>
+            <p>
+              Un campo es una columna individual en una tabla que representa un
+              atributo específico de la entidad. Cada campo tiene un nombre que
+              identifica la propiedad que está almacenando, y también tiene un
+              tipo de dato asociado que define el tipo de información que puede
+              contener, como texto, número, fecha o incluso datos binarios. Los
+              campos son esenciales para la organización y clasificación de la
+              información dentro de una base de datos relacional. Al asignar
+              tipos de datos a los campos, se garantiza la consistencia y la
+              integridad de los datos almacenados, permitiendo a los sistemas de
+              gestión de bases de datos realizar operaciones eficientes de
+              búsqueda, filtrado y ordenamiento.<br /><br />
+              Además, los campos almacenan los valores específicos para cada
+              instancia de la entidad en un registro. Por ejemplo, en una tabla
+              de clientes, el campo "Nombre" contendría los nombres individuales
+              de cada cliente, y el campo "Edad" almacenaría la información
+              relacionada con la edad de cada cliente. La definición precisa y
+              la gestión adecuada de los campos son esenciales para mantener la
+              coherencia y la fiabilidad de la base de datos, lo que contribuye
+              a un diseño robusto y eficiente del sistema.
+            </p>
+          </div>
+        </main>
+        <footer class="fixed inset-x-0 bottom-0 bg-white">
+          <div class="flex max-w-3xl px-4 py-5 mx-auto md:px-auto">
+            <a class="flex gap-2 mr-auto text-blue-400" href="definir1.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-chevron-left"
+              >
+                <path d="m15 18-6-6 6-6" />
+              </svg>
+              Pagina anterior</a
+            >
+            <a class="flex gap-2 ml-auto text-blue-400" href="modelo.html"
+              >Pagina siguiente
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-chevron-right"
+              >
+                <path d="m9 18 6-6-6-6" /></svg
+            ></a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

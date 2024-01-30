@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles.css" />
+  </head>
+  <body class="font-sans">
+    <div class="relative">
+      <header class="px-4 py-5 text-white bg-cyan-500 md:px-auto">
+        <nav class="container mx-auto">
+          <ul>
+            <li>
+              <a class="text-lg font-semibold" href="#"
+                >Jose Gregorio Camaran</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="mx-auto mb-[64px]">
+        <main class="flex flex-col justify-center px-4 py-10 gap-9 md:px-auto">
+          <h1 class="max-w-2xl mx-auto text-2xl font-semibold text-center">
+            ¿Que es una base de datos?
+          </h1>
+          <img
+            src="/src/public/img/base_datos.png"
+            class="object-cover w-full max-w-4xl mx-auto rounded-xl"
+          />
+          <div
+            class="flex flex-col justify-center max-w-3xl mx-auto md:leading-loose gap-9"
+          >
+            <p>
+              Las bases de datos representan la columna vertebral de la gestión
+              de información en el ámbito de la informática y la tecnología de
+              la información. Estas estructuras, esencialmente, consisten en un
+              conjunto organizado y sistemático de datos que se almacenan de
+              manera estructurada para facilitar la manipulación, consulta y
+              gestión eficiente de la información. La función principal de una
+              base de datos es actuar como un repositorio centralizado que
+              permite almacenar y recuperar datos de manera coherente y
+              eficaz.<br /><br />
+              En el diseño de una base de datos, la información se organiza en
+              tablas, que son estructuras bidimensionales compuestas por filas y
+              columnas. Cada fila de la tabla representa una entidad única o un
+              registro individual, mientras que cada columna corresponde a un
+              atributo específico de esos registros. Esta organización tabular
+              ofrece una estructura lógica y comprensible que facilita la
+              representación y gestión de la información, permitiendo la
+              realización de consultas, la actualización de datos y la
+              implementación de mecanismos para mantener la integridad y
+              consistencia de la información almacenada.<br /><br />
+              Dentro del vasto panorama de las bases de datos, dos categorías
+              principales son las bases de datos relacionales y las no
+              relacionales (NoSQL). Las bases de datos relacionales, basadas en
+              el modelo relacional, establecen relaciones entre tablas,
+              permitiendo una representación estructurada y coherente de datos.
+              Por otro lado, las bases de datos NoSQL adoptan diversos modelos
+              de almacenamiento, como documentos, grafos o claves-valor,
+              brindando flexibilidad en la gestión de datos no estructurados o
+              semi-estructurados.
+            </p>
+            <img
+              src="/src/public/img/gestores.jpg"
+              class="object-cover w-full rounded-xl"
+            />
+            <h2 class="text-lg font-semibold">
+              Tipos de sistemas gestores de bases de datos
+            </h2>
+            <p>
+              <strong>SGBD Relacional:</strong> Estos sistemas gestionan datos
+              siguiendo el modelo relacional, que utiliza tablas para organizar
+              la información. Cada tabla tiene filas y columnas, y las
+              relaciones entre tablas se establecen mediante claves primarias y
+              externas. Ejemplos incluyen MySQL, PostgreSQL, Oracle Database y
+              Microsoft SQL Server.<br /><br />
+              <strong>NoSQL:</strong> Contrariamente a los sistemas
+              relacionales, los sistemas NoSQL utilizan modelos de datos no
+              tabulares. Estos sistemas son más flexibles y pueden manejar
+              grandes cantidades de datos no estructurados o semi-estructurados.
+              Ejemplos de bases de datos NoSQL incluyen MongoDB (orientada a
+              documentos), Cassandra (orientada a columnas), y Neo4j (orientada
+              a grafos).<br /><br />
+              <strong> SGBD de Objeto-Relacional:</strong>
+              Combina características de los sistemas relacionales y de los
+              sistemas orientados a objetos. Permite el uso de objetos y clases
+              directamente en el modelo relacional. PostgreSQL es un ejemplo de
+              SGBD de objeto-relacional.<br /><br />
+              <strong>SGBD In-Memory:</strong> Almacenan y manipulan datos
+              directamente en la memoria principal del sistema, en lugar de en
+              discos. Esto acelera significativamente el acceso a los datos,
+              mejorando el rendimiento. Ejemplos son SAP HANA y Redis.<br /><br />
+              <strong>SGBD Distribuido: </strong> Estos sistemas distribuyen los
+              datos a través de múltiples nodos o servidores para mejorar la
+              escalabilidad y el rendimiento. Algunos ejemplos son Apache
+              Cassandra, Amazon DynamoDB y Google Cloud Bigtable.<br /><br />
+              <strong>SGBD Temporal: </strong>Diseñados para gestionar datos
+              temporales, registrando y manteniendo un historial de los cambios
+              en los datos a lo largo del tiempo. Esto es útil en aplicaciones
+              que requieren seguimiento temporal, como sistemas de auditoría.
+              Oracle Workspace Manager es un ejemplo.<br /><br />
+              <strong>SGBD de Almacén de Datos (Data Warehouse): </strong
+              >Optimizados para consultas y análisis de grandes conjuntos de
+              datos. Estos sistemas suelen incluir características como
+              particionamiento y optimización de consultas para ofrecer un
+              rendimiento eficiente en entornos de análisis de datos a gran
+              escala. Ejemplos incluyen Snowflake, Amazon Redshift y Google
+              BigQuery.<br /><br />
+              <strong>SGBD Embebidos: </strong>Integrados directamente en
+              aplicaciones y no requieren un servidor de bases de datos
+              independiente. Son ideales para aplicaciones que necesitan
+              gestionar datos localmente, como aplicaciones móviles y sistemas
+              embebidos. SQLite es un ejemplo común de SGBD embebido.
+            </p>
+          </div>
+        </main>
+        <footer class="fixed inset-x-0 bottom-0 bg-white">
+          <div class="flex max-w-3xl px-4 py-5 mx-auto md:px-auto">
+            <!-- <a class="flex gap-2 mr-auto text-blue-400" href="http://">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-chevron-left"
+              >
+                <path d="m15 18-6-6 6-6" />
+              </svg>
+              Pagina anterior</a
+            > -->
+            <a class="flex gap-2 ml-auto text-blue-400" href="definir1.html"
+              >Pagina siguiente
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-chevron-right"
+              >
+                <path d="m9 18 6-6-6-6" /></svg
+            ></a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
